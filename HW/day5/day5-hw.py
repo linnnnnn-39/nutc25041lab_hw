@@ -13,7 +13,7 @@ SUBMIT_URL = "https://hw-01.wade0426.me/submit_answer"
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_FILES = [os.path.join(BASE_DIR, f"data_{i:02d}.txt") for i in range(1, 6)]
 QUESTIONS_FILE = os.path.join(BASE_DIR, "questions.csv")
-OUTPUT_FILE = os.path.join(BASE_DIR, "學號_RAG_HW_01.csv")
+OUTPUT_FILE = os.path.join(BASE_DIR, "1111232039_RAG_HW_01.csv")
 
 client = QdrantClient(url=QDRANT_URL)
 
