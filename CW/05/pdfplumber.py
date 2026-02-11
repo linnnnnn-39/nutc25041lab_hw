@@ -22,4 +22,4 @@ def run():
     print(f"完成！結果已儲存至 {output_md}")
 
 if __name__ == "__main__":
-    run(
+    run()
